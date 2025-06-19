@@ -5,7 +5,7 @@ import NoteDetailPage from './pages/NoteDetailPage'
 
 function App() {
   return (
-    <div className='relative h-full w-full bg-oklch(0.864453 0.002011 17.1974'>
+    <div className='relative h-full w-full'>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/create" element={<CreatePage />} />
